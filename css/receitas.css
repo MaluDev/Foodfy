@@ -1,0 +1,148 @@
+@import 'index.html';
+@import'receitas.html';
+
+*{
+    margin:0;
+    padding:0;
+}
+
+footer{
+    margin-left: 0px;
+    margin-top: 50px;
+    border-top: 1px solid   rgb(172, 172, 172);   
+    background:  rgb(172, 172, 172); 
+    height: 62px;
+    opacity: 60%;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 23px;
+    opacity: 80%;
+}
+
+body{
+    font-family: 'Roboto Medium';
+    background: white;
+    color:black;
+
+}
+
+.links{
+    margin-right: 231px;
+    margin-left: 231px;
+    margin-top: 36.1px;
+    text-align: left;
+}
+
+.links img{
+    margin: 0 122px 0  0 ;
+}
+
+.links a{
+    font-size: 18px;
+    color: #111111;
+    text-decoration: none;
+    margin: 0 30px 0 0;
+}
+
+.links a:hover{
+    color: rgb(255, 1, 107);
+    transition: color 200ms;
+}
+
+
+/* ============ CARD =========== */
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 50px 231px auto;
+}
+.card_image-container img{
+    max-width: 300px;
+    max-height: 140px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.description p{
+    font-weight: normal;
+    font-size: 18px;
+    color: #111111;
+    margin-bottom: 5px;
+}
+
+.author p{
+    font-weight: normal;
+    font-size: 14px;
+    color: #777777;
+    opacity: 80%;
+    margin-bottom: 30px;
+}
+
+/*====MODAL====*/
+
+.modal_overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: white;
+    height: 413px;
+    width: 660px;
+    border-radius: 16px;
+    opacity: 1;
+    top: 30%;
+    margin-left: 370px;
+    position: relative; 
+    text-align: center;
+}
+
+.modal img {
+    border-radius: 15px;
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+    margin: 30px 30px 10px 30px;
+}
+
+#nome_receita {
+    font-size: 24px;;
+    color: #111111;
+}
+
+#chef_receita {
+    font-size: 18px;
+    line-height: 28px;
+    color: #777777;
+    margin-bottom: 50px;
+}
+
+.close_modal {
+    font-size: 16px;
+    color: #999999;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100px;
+}
+
+.close_modal p {
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+/*====MODAL.ACTIVE====*/
+
+.modal_overlay.active {
+    opacity: 1;
+    visibility: visible;
+}

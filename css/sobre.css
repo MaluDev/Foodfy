@@ -1,0 +1,73 @@
+@import 'index.html';
+
+*{
+    margin:0;
+    padding:0;
+}
+
+footer{
+    margin-left: 0px;
+    margin-top: 50px;
+    border-top: 1px solid   rgb(172, 172, 172);   
+    background:  rgb(172, 172, 172); 
+    height: 62px;
+    opacity: 60%;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 23px;
+    opacity: 80%;
+}
+
+body{
+    font-family: 'Roboto Medium';
+    background: white;
+    color:black;
+
+}
+
+.links{
+    margin-right: 231px;
+    margin-left: 231px;
+    margin-top: 36.1px;
+    text-align: left;
+}
+
+.links img{
+    margin: 0 122px 0  0 ;
+}
+
+.links a{
+    font-size: 18px;
+    color: #111111;
+    text-decoration: none;
+    margin: 0 30px 0 0;
+}
+
+.links a:hover{
+    color: rgb(255, 1, 107);
+    transition: color 200ms;
+}
+
+.text h2{
+    font-weight: bold;
+    font-size: 24px;
+    color: #111111;
+    margin-right: 231px;
+    margin-left: 231px;
+    margin-top: 36.1px;
+    text-align: left;
+}
+
+.text p{
+    font-weight: normal;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    margin-right: 231px;
+    margin-left: 231px;
+    margin-top: 36.1px;
+    text-align: left;
+    max-width: 940px;
+}
